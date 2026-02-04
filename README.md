@@ -34,7 +34,7 @@ uv sync  # yeah, its that easy.
 uv run jupyter lab
 ```
 
-**For VSCode Users**: VSCode sometimes struggles to recognize a UV environment. To force VSCode's internal jupyter server to recognize a uv python environment, run the following line:
+<!-- **For VSCode Users**: VSCode sometimes struggles to recognize a UV environment. To force VSCode's internal jupyter server to recognize a uv python environment, run the following line:
 ```bash
 uv run python -m ipykernel install --user --name internal_env_name --display-name "Env Name"
-```
+``` -->
