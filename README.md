@@ -1,6 +1,6 @@
 # Project Template
 
-A template for bioinformatics workflows for the Forsberg lab. Replace this with a short description of whatever analysis is going on here. Created by Akash Pandit.
+A template for python-based bioinformatics workflows. Replace this with a short description of whatever analysis is going on here. Created by Akash Pandit.
 
 - [Project Template](#project-template)
   - [Prerequisites](#prerequisites)
@@ -8,9 +8,9 @@ A template for bioinformatics workflows for the Forsberg lab. Replace this with 
 
 ## Prerequisites
 
-Basic BASH shell proficiency is assumed. Mac users, this is built-in to your terminal. Windows users, please 
+Basic BASH shell proficiency is assumed.
 
-1. **Terminal Access**: Mac users use "Terminal". Windows users, please [install WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or another BASH-based terminal emulator of your choice (e.g. Git Bash). 
+1. **Terminal Access**: Mac users use "Terminal". Windows users, please install/use [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) or another BASH-based terminal emulator of your choice (e.g. Git Bash). 
 
 2. **Git**: used for version control, [install here](https://git-scm.com/install/).
 
@@ -37,4 +37,5 @@ uv run jupyter lab
 <!-- **For VSCode Users**: VSCode sometimes struggles to recognize a UV environment. To force VSCode's internal jupyter server to recognize a uv python environment, run the following line:
 ```bash
 uv run python -m ipykernel install --user --name internal_env_name --display-name "Env Name"
-``` -->
+```
+-->
