@@ -27,6 +27,7 @@ cd bnfo-analysis-template
 To download all python dependencies and configure your environment, run:
 ```bash
 uv sync  # yeah, its that easy.
+uv pip install -e .
 ```
 
 **For Jupyter users:** Launch jupyter with `uv` to ensure it uses the correct environment and navigate to one of the given URLs:
