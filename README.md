@@ -34,6 +34,22 @@ uv pip install -e .
 ```bash
 uv run jupyter lab
 ```
+Example output:
+```
+...
+[I 2026-03-29 16:29:38.759 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-03-29 16:29:38.759 ServerApp] http://localhost:8888/lab?token=2bfba4a15ab3f67835f5d9ee864fb87699df29a5f18831b0
+[I 2026-03-29 16:29:38.759 ServerApp]     http://127.0.0.1:8888/lab?token=2bfba4a15ab3f67835f5d9ee864fb87699df29a5f18831b0
+[I 2026-03-29 16:29:38.759 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2026-03-29 16:29:38.835 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/akash/.local/share/jupyter/runtime/jpserver-29437-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=2bfba4a15ab3f67835f5d9ee864fb87699df29a5f18831b0
+        http://127.0.0.1:8888/lab?token=2bfba4a15ab3f67835f5d9ee864fb87699df29a5f18831b0
+...
+```
 
 <!-- **For VSCode Users**: VSCode sometimes struggles to recognize a UV environment. To force VSCode's internal jupyter server to recognize a uv python environment, run the following line:
 ```bash
